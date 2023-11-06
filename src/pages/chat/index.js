@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
 import MessagesReceived from "./messages";
 
-const Chat = ({ sokcet }) => {
+const Chat = ({ socket }) => {
   return (
     <div className={styles.chatContainer}>
       <div>
@@ -10,3 +10,5 @@ const Chat = ({ sokcet }) => {
     </div>
   );
 };
+
+export default Chat;
